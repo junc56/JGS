@@ -45,13 +45,15 @@ header {
 }
 
 #change-mod-d {
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin-left: 10px;
   cursor: pointer;
 }
 
 #change-mod-l {
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -266,38 +268,14 @@ header {
   margin-bottom: 50px;
 }
 
-.card-1 {
+.card {
   background-color: rgb(26, 26, 26);
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
 }
 
-.card-1:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-2 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-2:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-3 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-3:hover {
+.card:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
@@ -308,124 +286,16 @@ header {
   margin-bottom: 50px;
 }
 
-.card-4 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-4:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-5 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-5:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-6 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-6:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
 .cards-row-3 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
 }
 
-.card-7 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-7:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-8 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-8:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-9 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-9:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
 .cards-row-4 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-}
-
-.card-10 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-10:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-11 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-11:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.card-12 {
-  background-color: rgb(26, 26, 26);
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.card-12:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
 }
 
 .card-img {
@@ -476,4 +346,122 @@ header {
 .footer-link:hover {
   color: rgb(233, 149, 4);
   transition: 0.5s;
+}
+
+/* index2 css */
+
+.title-best {
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+
+.best-cards-row-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.best-cards-row-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.best-cards-row-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.best-cards-row-4 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.best-card-title {
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.best-card {
+  background-color: rgb(26, 26, 26);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.best-card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.best-card-title:hover {
+  color: rgb(185, 185, 185);
+  transition: 0.2s;
+}
+
+.best-card-img {
+  width: 350px;
+  height: 250px;
+}
+
+@media (max-width: 720px) {
+  .nav {
+    display: none;
+  }
+  .welcome {
+    display: none;
+  }
+  .main-page {
+    margin: 0 20%;
+  }
+  .cards-row-1 {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .cards-row-2 {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .cards-row-3 {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .cards-row-4 {
+    display: block;
+  }
+  .card {
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  .side {
+    display: none;
+  }
+  .best-cards-row-1 {
+    display: block;
+  }
+  .best-cards-row-2 {
+    display: block;
+  }
+  .best-cards-row-3 {
+    display: block;
+  }
+  .best-cards-row-4 {
+    display: block;
+  }
+  .best-card {
+    width: 350px;
+    margin-bottom: 40px;
+  }
+  .best-cards-main {
+    margin: 0 15%;
+  }
 }
